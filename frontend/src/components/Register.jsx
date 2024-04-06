@@ -60,7 +60,7 @@ const Register = () => {
             <h2>Sign Up</h2>
             <form onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor="firstname" style={{color:'black'}}>First Name</label>
+                    <label htmlFor="firstname" style={{color:'white'}}>First Name</label>
                     <input
                         type="text"
                         id="firstname"
@@ -72,7 +72,7 @@ const Register = () => {
                     />
                 </div>
                 <div>
-                    <label htmlFor="lastname" style={{color:'black'}}>Last Name</label>
+                    <label htmlFor="lastname" style={{color:'white'}}>Last Name</label>
                     <input
                         type="text"
                         id="lastname"
@@ -84,7 +84,7 @@ const Register = () => {
                     />
                 </div>
                 <div>
-                    <label htmlFor="email" style={{color:'black'}}>Email</label>
+                    <label htmlFor="email" style={{color:'white'}}>Email</label>
                     <input
                         type="email"
                         id="email"
@@ -96,7 +96,7 @@ const Register = () => {
                     />
                 </div>
                 <div>
-                    <label htmlFor="password" style={{color:'black'}}>Password</label>
+                    <label htmlFor="password" style={{color:'white'}}>Password</label>
                     <input
                         type="password"
                         id="password"

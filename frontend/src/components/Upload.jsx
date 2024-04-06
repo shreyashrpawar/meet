@@ -70,7 +70,7 @@ const ImageCaptionGenerator = () => {
 
                                 <h1 className="heading" >Hello {name}</h1> :
                                 <h1 className="heading">
-                                    Welcome to VocPix
+                                    Welcome to SnapSpeak
                                 </h1>
                             }
 

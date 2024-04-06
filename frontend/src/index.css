@@ -223,3 +223,6 @@ code {
   display: flex;
   flex-direction: row;
 }
+.uploadPage{
+  background-color: black;
+}

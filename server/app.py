@@ -7,7 +7,7 @@ from keras.applications import ResNet50
 from keras.optimizers import Adam
 from keras.layers import Dense, Flatten,Input, Convolution2D, Dropout, LSTM, TimeDistributed, Embedding, Bidirectional, Activation, RepeatVector,Concatenate
 from keras.models import Sequential, Model
-from keras.utils import np_utils
+from keras.utils import to_categorical
 from keras.preprocessing import image, sequence
 import cv2
 from keras_preprocessing.sequence import pad_sequences

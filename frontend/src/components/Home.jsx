@@ -4,20 +4,25 @@ import projLogoVideo from '../videos/proj_logo.mp4';
 import projectLogoVideo from '../videos/project_logo.mp4';
 import catImage from '../background/cat.png';
 import { Link } from 'react-router-dom';
+import logo from '../videos/snap.jpg'
 
 
 const Home = () => {
   
   return (
     <div className={styles.topContainer}>
-      <video id="bg-video" autoPlay loop muted>
+      <div className={styles.container}>
+      <div>
+        {/* <image id="bg-video" href='snap.jpg'/> */}
+        <img src={logo} className={styles.logoIcon} alt="logo" />
+      {/* <video id="bg-video" autoPlay loop muted>
         <source src={projectLogoVideo} type="video/mp4" />
-      </video>
+      </video> */}</div>
       <div className={styles.login}>
         <Link className={styles.logbtn} to="/login">
           Login
         </Link>
-      </div>
+      </div></div>
       <div className={styles.info}>
         <h2>The Next-Gen Image Insight Generation</h2>
         <div className={styles.description}>

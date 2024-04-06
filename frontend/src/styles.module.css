@@ -1,5 +1,6 @@
 body{
   color: #ffffff;
+  background-color: black;
     margin: 0;
     text-align: center;
     /* font-family: 'Noto Serif', serif;    */
@@ -62,9 +63,7 @@ body{
     padding-left: 50px;
   }
 
-.info {
-    padding-top: 300px;
-  }
+
   
 
 h2{
@@ -102,4 +101,15 @@ h2{
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
   }
-  
+  .topContainer{
+    background-color: black;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+  }
+  .logoIcon{
+    height: 200px;
+    position: relative;
+    /* top: 30%; */
+  }

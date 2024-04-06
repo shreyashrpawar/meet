@@ -1,7 +1,8 @@
+
 .login-container {
   /* border: 2px solid green; */
   display: flex;
-  background-color: #2F3B69;
+  background-color: black;
   height: 100vh;
   justify-content: center;
   align-items: center;
@@ -19,8 +20,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: black;
-  background-color: white;
+  color: white;
+  
   border-radius: 25px;
 }
 

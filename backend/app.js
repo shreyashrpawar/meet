@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const fetchUser = require('./middleware/fetchUser');
-
 const port = 8000; // Change this to the desired port number
 app.use(express.json());
 
@@ -93,6 +92,9 @@ app.get('/fetchnotes', fetchUser, async (req, res) => {
 
     }
 })
+//  For connecting DB with node js
+
+
 
 
 app.listen(port, () => {
